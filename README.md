@@ -65,9 +65,9 @@
 ## 如何启动项目
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/yazesong/cyber-doctor.git
+   git clone https://github.com/yczSEU/AI-Doctor.git
    # 或使用 SSH
-   git clone git@github.com:yazesong/cyber-doctor.git
+   git clone git@github.com:yczSEU/AI-Doctor.git
    cd cyber-doctor
    ```
 2. **创建并激活 Python 环境（建议 3.10）**
@@ -258,6 +258,7 @@ cyber-doctor/
 
 ## 用户认证与权限
 仓库已内置基于 Django 的认证服务（支持 JWT 与可选 Redis 黑名单机制），并与 Gradio 前端完成集成。配置方法、API 列表、运行顺序等详情请参考 [docs/authentication.md](docs/authentication.md)。
+
 
 
 
